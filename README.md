@@ -83,7 +83,7 @@ or:
 
     if hi_dotset!(<x>, <y>) = 1 then <statement>
 
-This is a function that returns 1 if the pixel at <x>, <y> is set, 0 otherwise.
+This is a function that returns 1 if the pixel at (x,y) is set, 0 otherwise.
 
 ## hi_line
 
@@ -91,7 +91,7 @@ Usage:
 
     hi_line <x1>, <y1>, <x2>, <y2>
 
-Draws a line between (<x1>,<y1>) and (<x2>,<y2>).
+Draws a line between (x1,y1) and (x2,y2).
 
 ## hi_rect
 
@@ -99,7 +99,7 @@ Usage:
 
     hi_rect <x1>, <y1>, <x2>, <y2>
 
-Draws a rectangle between (<x1>,<y1>) and (<x2>,<y2>).
+Draws a rectangle between (x1,y1) and (x2,y2).
 
 ## hi_box
 
@@ -107,7 +107,7 @@ Usage:
 
     hi_box <x1>, <y1>, <x2>, <y2>
 
-Draws a filled rectangle between (<x1>,<y1>) and (<x2>,<y2>).
+Draws a filled rectangle between (x1,y1) and (x2,y2).
 
 ## hi_circle
 
@@ -115,7 +115,7 @@ Usage:
 
     hi_circle <x>, <y>, <r>
 
-Draws a circle with center point (<x>,<y>) and radius <r>.
+Draws a circle with center point (x,y) and radius r.
 
 ## hi_fill
 
@@ -123,7 +123,7 @@ Usage:
 
     hi_fill <x>, <y>
 
-Flood fills a closed area starting from point (<x>,<y>).
+Flood fills a closed area starting from point (x,y).
 
 **WARNING: this command can only fill an area that's fully closed. If filling hits the border, the behaviour will be undefined.**
 
@@ -135,4 +135,4 @@ The following things are yet to be implemented. Feel free to contribute!
   - Drawing ellpises and arcs
   - Writing chars on bitmap
   - Copying sprites onto bitmap
-  - 
+  - etc.
