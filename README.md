@@ -24,7 +24,7 @@ Usage:
 
     hi_bitmapon
 
-Turns on bitmap mode. The command will switch VIC-II to use Bank 2, that is, $8000-$bfff. The bitmap will be placed at $a000-$bf3f and the screen RAM will be placed at $8c00-7fe7.
+Turns on bitmap mode. The command will switch VIC-II to use Bank 2, that is, $8000-$bfff. The bitmap will be placed at $a000-$bf3f and the screen RAM will be placed at $8c00-8fe7.
 You can use the following constants if you need a pointer to these locations:
 
     const HI_BITMAPADDR = $a000
